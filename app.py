@@ -9,7 +9,8 @@ from datetime import datetime
 
 # ---------------- CONFIG ----------------
 # Put your HF_ROUTER API key here or set env var HF_API_KEY
-HF_API_KEY = os.getenv("HF_API_KEY") or "your_hf_api_key"
+HF_API_KEY=your_actual_key_here
+
 PDF_CACHE_DIR = "./pdf_cache"
 Path(PDF_CACHE_DIR).mkdir(exist_ok=True)
 
