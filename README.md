@@ -33,9 +33,7 @@ PdfChat/
 │── pdf_cache/ # Cached PDF data
 │── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -47,23 +45,16 @@ git clone https://github.com/vaibhav-joswal/PdfChat.git
 cd PdfChat
 2️⃣ Create a virtual environment
 
-bash
-Copy
-Edit
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
 3️⃣ Install dependencies
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4️⃣ Run the app
 
-bash
-Copy
-Edit
+
 streamlit run app.py
 📷 Screenshots
 
