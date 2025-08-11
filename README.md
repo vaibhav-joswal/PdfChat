@@ -27,12 +27,11 @@ The app uses **semantic search** and **Retrieval-Augmented Generation (RAG)** to
 
 ## 📂 Project Structure
 PdfChat/
-│── app.py # Streamlit frontend
-│── pdf1.py # Backend logic (PDF parsing, FAISS, RAG)
-│── requirements.txt # Python dependencies
-│── pdf_cache/ # Cached PDF data
-│── README.md # Project documentation
-
+├── app.py           # Streamlit frontend
+├── pdf1.py          # Backend logic (PDF parsing, FAISS, RAG)
+├── requirements.txt   # Python dependencies
+├── pdf_cache/       # Cached PDF data
+└── README.md        # Project documentation
 
 
 ---
@@ -44,19 +43,16 @@ PdfChat/
 git clone https://github.com/vaibhav-joswal/PdfChat.git
 cd PdfChat
 2️⃣ Create a virtual environment
-
 python -m venv .venv
 source .venv/bin/activate   # Mac/Linux
 .venv\Scripts\activate      # Windows
+
 3️⃣ Install dependencies
-
-
 pip install -r requirements.txt
+
 4️⃣ Run the app
-
-
 streamlit run app.py
-📷 Screenshots
+
 
 🏆 Key Skills / Expertise
 Streamlit UI Development
